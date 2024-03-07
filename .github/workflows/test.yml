@@ -7,3 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: rigdev/actions/setup@setup
+        with:
+          version: 1.7.1
